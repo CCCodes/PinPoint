@@ -13,5 +13,5 @@ class HomeText(models.Model):
 class AboutText(models.Model):
     text = models.TextField()
     position = models.CharField(max_length=5,
-                                choices=[("main", "Main"), ("col1", "Column 1"), ("col2", "Column 2")],
+                                choices=[("main", "Main"), ("main1", "Main 1"), ("main2", "Main 2"), ("col1", "Column 1"), ("col2", "Column 2")],
                                 default="main")

@@ -102,3 +102,11 @@ body {
 #blue-box {
   background-color: rgba(23, 13, 133, 0.8);
 }
+
+#about2 {
+  text-align:center;
+  padding-left: 50px;
+  padding-right: 50px;
+  color:white;
+  background-color: rgba(2, 113, 114, 0.8);
+}

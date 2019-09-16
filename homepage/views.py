@@ -14,9 +14,11 @@ def home(request):
 
 
 def about(request):
-    texts = AboutText.objects.all()
     context = {
-        'texts': texts,
+        'main1': AboutText.objects.filter(position="main1"),
+        'main2': AboutText.objects.filter(position="main2"),
+        'col1': AboutText.objects.filter(position="col1"),
+        'col2': AboutText.objects.filter(position="col2"),
     }
     return render(request, 'about.html', context)
 

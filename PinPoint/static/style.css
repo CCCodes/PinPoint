@@ -99,6 +99,30 @@ body {
   text-transform: uppercase;
 }
 
+#logo-header {
+  text-align: center;
+  height: 55px;
+  background-color: rgba(255, 255, 255, .7);
+  padding: 5px;
+}
+
+#logo-img {
+  display: block;
+  /*margin-left: auto;*/
+  /*margin-right: auto;*/
+  height: 90%;
+}
+
 #blue-box {
   background-color: rgba(23, 13, 133, 0.8);
+}
+
+#about2 {
+  text-align:center;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+#about3 {
+  background-color: rgba(255, 255, 255, .8);
 }
