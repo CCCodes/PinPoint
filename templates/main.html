@@ -1,44 +1,100 @@
+{% extends "base.html" %}
 {% load static %}
 {% load staticfiles %}
-
-<html>
-<head>
-  <!-- Required meta tags -->
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="{% static 'style.css' %}">
-  <title>Test</title>
-</head>
-<body>
-  <div class="container background"><div class="layer">
-  <div class="navbar-header topnav" style="text-align: center">
-    <a href="#home" class="active">Home</a>
-    <a href="#news">Blog</a>
-    <a href="#contact">Contact</a>
-    <a href="#about">About</a>
+{% block content %}
+  <div class="row h-50" id="row1" style="padding: 30px; padding-top: 80px;">
+      <div class="col-md-4"><div class="container text-white w-100 h-70" id="blue-box"><p class="title">
+      Indoor navigation has arrived</p></div></div>
   </div>
-  <div class="row h-50">PinPoint</div>
-  <div class="row bg-dark text-white fixed-row-bottom h-25 w-100" id="features">
-    <div class="col-md-3">
-      The product can do this
-    </div>
-    <div class="col-md-3">
-      And this
-    </div>
-    <div class="col-md-3">
-      And this
-    </div>
-    <div class="col-md-3">
-      And also this
-    </div>
+      <div class="row row-white h-50" id="row2"><p class="title">INDOOR NAVIGATION AND POSITIONING</p>
+      PinPoint offers indoor navigation and indoor positioning.
+      Our system uses Bluetooth beacons and AI based localization
+      for accuracy. This allows our system to be used in different
+      environments like airports, hospitals, and large complex structures
+      easily and reliably. </div>
+  <div class="row row3"><p class="title">INDOOR NAVIGATION SYSTEM</p>
   </div>
+  <div class="row row3">
+      <div class="col-md-6"><img class="img-fluid center-block" src="{% static 'img1.jpg' %}" /></div>
+      <div class="col-md-6">
+          <h4>Accurate Indoor Navigation</h4>
+Our indoor navigation solution provides accurate turn-by-turn navigation to users.
+          <ul>
+              <li>Turn-by-turn directions throughout designated navigation zones </li>
+              <li>Visual display guidance </li>
+              <li>Voice guidance</li>
+              <li>Audio prompts</li>
+              <li>Phone "Shake" alerts</li>
+              <li>Automatic rerouting</li>
+              <li>Integration with other applications</li>
+              <li>multiple route options</li>
+          </ul>
+      </div>
+  </div>
+      <div class="row row3">
+          <div class="col-md-6"><h4>Navigation for Visually Impaired</h4>
+Our system allows people with visually impairments independently explore new indoor environments.
+              <ul>
+<li>1~2m positioning accuracy</li>
+                  <li>Visually impaired/Wheelchair mode</li>
+                  <li>Textiles and floor changes alerts</li>
+                  <li>Audio prompts of environment changes and hazards</li>
+                  <li>audio prompts for facility information</li>
+              </ul></div>
+          <div class="col-md-6"><img class="img-fluid center-block" src="{% static 'img2.jpg' %}" /></div>
+      </div>
+      <div class="row row3">
+          <div class="col-md-6"><img class="img-fluid center-block" src="{% static 'img3.jpg' %}" /></div>
+          <div class="col-md-6">
+              <h4>Support</h4>
+Clients can edit destinations and environmental changes and information on a live desktop.
+              <ul>
+                  <li>Sensor network maintenance</li>
+                  <li>Map server support</li>
+                  <li>Customized add-ons</li>
+                  <li>Trajectory statistics</li>
+                  <li>Space utilization data</li>
+              </ul>
+          </div>
+      </div>
+      <div class="row row-white"><p class="title">BENEFITS</p>
+      </div>
+      <div class="row row-white">
+          <div class="col-md-8">
+              <ul>
+                  <li>Providing people with visual impairments accessibility</li>
+                  <li>Showcasing your facility and creating an engaging and positive experience for your clients</li>
+                  <li>Reducing unnecessary costs by eliminating costly directional board and staff time</li>
+                  <li>Improving your service by getting people to their destinations without confusion</li>
+                  <li>Increasing awareness by use of monitoring tools to locate people's positions in the building</li>
+                  <li>Helping facility decisions by viewing user's traffic patterns</li>
+                  <li>Enhancing revenue through potential marketing and advertising capabilities</li>
+                  <li>Integrating with existing facility systems to increase adoption and client/patient on-time arrivals</li>
+              </ul>
+          </div>
+          <div class="col-md-4"><img class="center-block" src="{% static 'img4.jpg' %}" /></div>
+      </div>
+      <div class="row row3"><p class="title">VIDEO</p>
+      </div>
+      <div class="row row3">
+          <div class="col-md-6">
+      <div class="embed-responsive embed-responsive-16by9">
+          <iframe width="532" height="299" src="https://www.youtube.com/embed/nUucN_X7x24" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div></div>
-  <!-- Optional JavaScript -->
-  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-</body>
-</html>
+          <div class="col-md-6">
+Turn-by-Turn Indoor Navigation for the Visually Impaired </div>
+      </div>
+      <div class="row row-white">
+          <div class="col-md-6">
+      <div class="embed-responsive embed-responsive-16by9">
+          <iframe width="532" height="299" src="https://www.youtube.com/embed/KkRigGqTsuc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div></div>
+          <div class="col-md-6">NavCog at Annual PCB Conference</div>
+      </div>
+      <div class="row row-blue">
+          <p class="title">OUR MISSION</p>
+      </div>
+      <div class="row row-blue">
+          Our mission is to lend a virtual hand through innovative technology; helping those in
+          need to navigate complex indoor environments, simply and safely.
+      </div>{% endblock %}
