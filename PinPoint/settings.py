@@ -24,7 +24,10 @@ SECRET_KEY = '$ydc5++g1@viygxglf^-mi&8(sa^%x^zbmj287&j=_&$uf9wc7'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    '127.0.0.1',
+    'pinpoint-labs.herokuapp.com'
+]
 
 
 # Application definition
