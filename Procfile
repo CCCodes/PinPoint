@@ -1,0 +1,1 @@
+web: gunicorn PinPoint.wsgi:application --log-file -
