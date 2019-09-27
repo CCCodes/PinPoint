@@ -15,7 +15,7 @@ def home(request):
     context = {
         'texts': texts,
     }
-    return render(request, 'main.html', context)
+    return render(request, 'hometest.html', context)
 
 
 def about(request):

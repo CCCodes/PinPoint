@@ -4,8 +4,7 @@
     <div class="row row-blue" style="margin-top:13px;"><p class="title">Contact Us</p></div>
     <div class="row row-blue">
     <div class="container" style="width: 60%; margin: 0 auto;">
-            <p>We're here to help!
-    {{ header_main }}<br/>
+            <p>{{ header_main }}<br/>
     {{ message }}</p>
 
     <form action="{% url 'home:contact_submit' %}" method="post">
