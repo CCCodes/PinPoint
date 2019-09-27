@@ -2,7 +2,39 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e56a0b60-f0a6-4598-9738-8d0a4d0b528d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PinPoint/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/offline/cv_poc/venv/Lib/site-packages/django_environ-0.4.5.dist-info/INSTALLER" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/offline/cv_poc/venv/Lib/site-packages/django_environ-0.4.5.dist-info/METADATA" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/offline/cv_poc/venv/Lib/site-packages/django_environ-0.4.5.dist-info/RECORD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/offline/cv_poc/venv/Lib/site-packages/django_environ-0.4.5.dist-info/WHEEL" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/offline/cv_poc/venv/Lib/site-packages/django_environ-0.4.5.dist-info/top_level.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/offline/cv_poc/venv/Lib/site-packages/dotenv/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/offline/cv_poc/venv/Lib/site-packages/dotenv/cli.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/offline/cv_poc/venv/Lib/site-packages/dotenv/compat.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/offline/cv_poc/venv/Lib/site-packages/dotenv/ipython.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/offline/cv_poc/venv/Lib/site-packages/dotenv/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/offline/cv_poc/venv/Lib/site-packages/dotenv/parser.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/offline/cv_poc/venv/Lib/site-packages/dotenv/py.typed" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/offline/cv_poc/venv/Lib/site-packages/dotenv/version.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/offline/cv_poc/venv/Lib/site-packages/environ/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/offline/cv_poc/venv/Lib/site-packages/environ/compat.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/offline/cv_poc/venv/Lib/site-packages/environ/environ.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/offline/cv_poc/venv/Lib/site-packages/environ/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/offline/cv_poc/venv/Lib/site-packages/environ/test_env.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/offline/cv_poc/venv/Lib/site-packages/python_dotenv-0.10.3.dist-info/INSTALLER" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/offline/cv_poc/venv/Lib/site-packages/python_dotenv-0.10.3.dist-info/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/offline/cv_poc/venv/Lib/site-packages/python_dotenv-0.10.3.dist-info/METADATA" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/offline/cv_poc/venv/Lib/site-packages/python_dotenv-0.10.3.dist-info/RECORD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/offline/cv_poc/venv/Lib/site-packages/python_dotenv-0.10.3.dist-info/WHEEL" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/offline/cv_poc/venv/Lib/site-packages/python_dotenv-0.10.3.dist-info/entry_points.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/offline/cv_poc/venv/Lib/site-packages/python_dotenv-0.10.3.dist-info/top_level.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/offline/cv_poc/venv/Scripts/dotenv.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PinPoint/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/PinPoint/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homepage/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/homepage/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homepage/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/homepage/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/contact.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -124,7 +156,8 @@
       <workItem from="1568163786804" duration="4743000" />
       <workItem from="1568337762198" duration="4164000" />
       <workItem from="1568590595822" duration="9822000" />
-      <workItem from="1568853227668" duration="1498000" />
+      <workItem from="1568853227668" duration="2109000" />
+      <workItem from="1569598417097" duration="6153000" />
     </task>
     <servers />
   </component>
@@ -146,5 +179,26 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/PinPoint/settings.py</url>
+          <line>39</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/homepage/views.py</url>
+          <line>35</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/PinPoint/settings.py</url>
+          <line>177</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

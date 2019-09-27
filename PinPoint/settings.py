@@ -9,8 +9,49 @@ https://docs.djangoproject.com/en/2.2/topics/settings/
 For the full list of settings and their values, see
 https://docs.djangoproject.com/en/2.2/ref/settings/
 """
-
+import configparser
+import io
 import os
+
+from dotenv import load_dotenv
+
+
+load_dotenv()
+
+PROJECT_ROOT = os.path.normpath(os.path.dirname(__file__))
+
+
+def get_env_variable(var_name, default=False):
+    """
+    Get the environment variable or return exception
+    :param var_name: Environment Variable to lookup
+    """
+    try:
+        return os.environ[var_name]
+    except KeyError:
+        env_file = os.environ.get('PROJECT_ENV_FILE', PROJECT_ROOT + "/.env")
+        try:
+            config = io.StringIO()
+            config.write("[DATA]\n")
+            config.write(open(env_file).read(cp.items('DATA')))
+            config.seek(0, os.SEEK_SET)
+            cp = configparser.ConfigParser()
+            cp.readfp(config)
+            value = dict(cp.items('DATA'))[var_name.lower()]
+            if value.startswith('"') and value.endswith('"'):
+                value = value[1:-1]
+            elif value.startswith("'") and value.endswith("'"):
+                value = value[1:-1]
+            os.environ.setdefault(var_name, value)
+            return value
+        except (KeyError, IOError):
+            if default is not False:
+                return default
+            from django.core.exceptions import ImproperlyConfigured
+            error_msg = "Either set the env variable '{var}' or place it in your " \
+                        "{env_file} file as '{var} = VALUE'"
+            raise ImproperlyConfigured(error_msg.format(var=var_name, env_file=env_file))
+
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -19,7 +60,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # See https://docs.djangoproject.com/en/2.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = '$ydc5++g1@viygxglf^-mi&8(sa^%x^zbmj287&j=_&$uf9wc7'
+SECRET_KEY = os.getenv('SECRET_KEY')
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -122,7 +163,6 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/2.2/howto/static-files/
 
-PROJECT_ROOT = os.path.normpath(os.path.dirname(__file__))
 STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(PROJECT_ROOT, 'staticfiles')
 
@@ -130,3 +170,10 @@ STATIC_ROOT = os.path.join(PROJECT_ROOT, 'staticfiles')
 STATICFILES_DIRS = (
     os.path.join(PROJECT_ROOT, 'static'),
 )
+
+EMAIL_USE_TLS = True
+EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+EMAIL_HOST = 'smtp.gmail.com'
+EMAIL_HOST_PASSWORD = os.getenv('EMAIL_PASS')
+EMAIL_HOST_USER = 'proconduck@gmail.com'
+EMAIL_PORT = 587
