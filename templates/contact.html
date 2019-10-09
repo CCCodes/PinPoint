@@ -4,18 +4,20 @@
     <div class="row row-blue" style="margin-top:13px;"><p class="title">Contact Us</p></div>
     <div class="row row-blue">
     <div class="container" style="width: 60%; margin: 0 auto;">
-            <p>We're here to help!</p>
+            <p>{{ header_main }}<br/>
+    {{ message }}</p>
 
-    <form>
+    <form action="{% url 'home:contact_submit' %}" method="post">
+        {% csrf_token %}
   <div class="form-group row">
-    <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Name">
+    <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Name" name="name">
   </div>
 
   <div class="form-group row">
-    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email*" required>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email*" name="email" required>
   </div>
   <div class="form-group row">
-    <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Message*" rows="3" required></textarea>
+    <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Message*" rows="3" name="message" required></textarea>
   </div>
   <button type="submit" class="btn btn-primary">Submit</button>
 </form>

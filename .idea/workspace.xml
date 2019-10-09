@@ -2,7 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e56a0b60-f0a6-4598-9738-8d0a4d0b528d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/PinPoint/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/PinPoint/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PinPoint/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PinPoint/static/airport.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PinPoint/static/government.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PinPoint/static/hospital.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PinPoint/static/hotel.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PinPoint/static/mall.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PinPoint/static/museum.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PinPoint/static/retail.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PinPoint/static/university.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PinPoint/static/homestyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/PinPoint/static/homestyle.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/hometest.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/hometest.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -30,9 +42,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="Python Script" />
         <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -124,8 +136,36 @@
       <workItem from="1568163786804" duration="4743000" />
       <workItem from="1568337762198" duration="4164000" />
       <workItem from="1568590595822" duration="9822000" />
-      <workItem from="1568853227668" duration="1498000" />
+      <workItem from="1568853227668" duration="2109000" />
+      <workItem from="1569598417097" duration="8153000" />
+      <workItem from="1569606957530" duration="229000" />
+      <workItem from="1569720163796" duration="1202000" />
+      <workItem from="1570392983600" duration="6239000" />
+      <workItem from="1570534637698" duration="598000" />
+      <workItem from="1570620082143" duration="2639000" />
     </task>
+    <task id="LOCAL-00001" summary="contact submit working">
+      <created>1569604636209</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1569604636209</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Start new homepage mockup">
+      <created>1569606465612</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1569606465612</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Start new homepage mockup">
+      <created>1570399562906</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1570399562907</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -146,5 +186,29 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="contact submit working" />
+    <MESSAGE value="Start new homepage mockup" />
+    <option name="LAST_COMMIT_MESSAGE" value="Start new homepage mockup" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/PinPoint/settings.py</url>
+          <line>39</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/homepage/views.py</url>
+          <line>35</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/PinPoint/settings.py</url>
+          <line>177</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
