@@ -27,7 +27,13 @@
 .slide-face-back {
     display: none;
     text-align: left;
-    margin:auto;
+    padding-right: 10px;
+    align-items: center;
+}
+
+#slide-1 {
+    background-image: linear-gradient(0deg,rgba(1,71,109,0.6),rgba(1,71,109,0.6)), url("hospital.jpg");
+    background-size: auto 100%;
 }
 #slide-1:hover .slide-face-front {
     display: none;
@@ -36,6 +42,11 @@
     display: inline;
 }
 
+#slide-2 {
+    background-image: linear-gradient(0deg,rgba(255,0,150,0.3),rgba(255,0,150,0.3)), url("airport.jpg");
+    background-position: bottom;
+    background-size: auto 100%;
+}
 #slide-2:hover .slide-face-front {
     display: none;
 }
@@ -43,6 +54,10 @@
     display: inline;
 }
 
+#slide-3 {
+    background-image: linear-gradient(0deg,rgba(1,71,109,0.6),rgba(1,71,109,0.6)), url("university.jpg");
+    background-size: auto 100%;
+}
 #slide-3:hover .slide-face-front {
     display: none;
 }
@@ -50,6 +65,10 @@
     display: inline;
 }
 
+#slide-4 {
+    background-image: linear-gradient(0deg,rgba(255,0,150,0.3),rgba(255,0,150,0.3)), url("government.jpg");
+    background-size: auto 100%;
+}
 #slide-4:hover .slide-face-front {
     display: none;
 }
@@ -57,6 +76,10 @@
     display: inline;
 }
 
+#slide-5 {
+    background-image: linear-gradient(0deg,rgba(1,71,109,0.6),rgba(1,71,109,0.6)), url("mall.jpg");
+    background-size: auto 100%;
+}
 #slide-5:hover .slide-face-front {
     display: none;
 }
@@ -64,6 +87,10 @@
     display: inline;
 }
 
+#slide-6 {
+    background-image: linear-gradient(0deg,rgba(255,0,150,0.3),rgba(255,0,150,0.3)), url("hotel.jpg");
+    background-size: 100% auto;
+}
 #slide-6:hover .slide-face-front {
     display: none;
 }
@@ -71,6 +98,10 @@
     display: inline;
 }
 
+#slide-7 {
+    background-image: linear-gradient(0deg,rgba(1,71,109,0.6),rgba(1,71,109,0.6)), url("retail.jpg");
+    background-size: auto 100%;
+}
 #slide-7:hover .slide-face-front {
     display: none;
 }
@@ -78,6 +109,10 @@
     display: inline;
 }
 
+#slide-8 {
+    background-image: linear-gradient(0deg,rgba(255,0,150,0.3),rgba(255,0,150,0.3)), url("museum.jpg");
+    background-size: auto 100%;
+}
 #slide-8:hover .slide-face-front {
     display: none;
 }
