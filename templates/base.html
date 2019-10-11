@@ -21,7 +21,8 @@
           <img id="logo" src="{% static 'logo.png' %}" alt="">
         </a>-->
     <a href="{% url 'home:homepage' %}" class="{% if request.resolver_match.view_name == "home:homepage" %}active{% endif %}">Home</a>
-    <a href="#news" class="{% if request.resolver_match.app_name == "blog" %}active{% endif %}">Blog</a>
+    <a href="#" class="{% if request.resolver_match.app_name == "blog" %}active{% endif %}">Blog</a>
+    <a href="{% url 'home:partner' %}" class="{% if request.resolver_match.app_name == "partner" %}active{% endif %}">Partner</a>
     <a href="{% url 'home:contact' %}" class="{% if request.resolver_match.view_name == "home:contact" %}active{% endif %}">Contact</a>
     <a href="{% url 'home:about' %}" class="{% if request.resolver_match.view_name == "home:about" %}active{% endif %}">About</a>
   </div>
