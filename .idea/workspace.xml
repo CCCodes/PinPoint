@@ -2,11 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e56a0b60-f0a6-4598-9738-8d0a4d0b528d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/templates/hometest1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/partner.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PinPoint/static/homestyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/PinPoint/static/homestyle.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/homepage/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/homepage/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homepage/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/homepage/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/hometest1.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/hometest1.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/main.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -36,8 +37,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
-        <option value="HTML File" />
         <option value="CSS File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -144,7 +145,8 @@
       <workItem from="1570392983600" duration="6239000" />
       <workItem from="1570534637698" duration="598000" />
       <workItem from="1570620082143" duration="2639000" />
-      <workItem from="1570793634460" duration="2272000" />
+      <workItem from="1570793634460" duration="2354000" />
+      <workItem from="1571104260989" duration="1154000" />
     </task>
     <task id="LOCAL-00001" summary="contact submit working">
       <created>1569604636209</created>
@@ -174,7 +176,14 @@
       <option name="project" value="LOCAL" />
       <updated>1570628751452</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Start new homepage mockup">
+      <created>1570795986257</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1570795986258</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -209,7 +218,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/homepage/views.py</url>
-          <line>35</line>
+          <line>40</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">

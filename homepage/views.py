@@ -28,6 +28,11 @@ def about(request):
     return render(request, 'about.html', context)
 
 
+def partner(request):
+    context = {}
+    return render(request, 'partner.html', context)
+
+
 def contact(request):
     return render(request, 'contact.html')
 
