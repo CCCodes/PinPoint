@@ -19,28 +19,75 @@
       <div class="col-md-6"><img class="img-fluid center-block" src="{% static 'img1.jpg' %}" /></div>
       <div class="col-md-6">
           <h4>Accurate Indoor Navigation</h4>
-Our indoor navigation solution provides accurate turn-by-turn navigation to users.
-          <ul>
-              <li>Turn-by-turn directions throughout designated navigation zones </li>
-              <li>Visual display guidance </li>
-              <li>Voice guidance</li>
-              <li>Audio prompts</li>
-              <li>Phone "Shake" alerts</li>
-              <li>Automatic rerouting</li>
-              <li>Integration with other applications</li>
-              <li>multiple route options</li>
-          </ul>
+Our indoor navigation solution provides accurate turn-by-turn navigation to users.<br/><br/>
+          <h4>User-selectable application modes</h4>
+          <div id="mode-group">
+          <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#visually-impaired" data-parent="#mode-group">
+              Visually Impaired
+          </button>
+          <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#visual-display" data-parent="#mode-group">
+              Visual Display Guidance
+          </button>
+          <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#wheelchair-mode" data-parent="#mode-group">
+              Wheelchair
+          </button>
+          <div class="accordion-group">
+          <div class="select-mode collapse" id="visually-impaired">
+              Visually Impaired Mode
+              <ul>
+                  <li>Turn-by-turn directions throughout designated navigation zones </li>
+                  <li>Visual display guidance </li>
+                  <li>Voice guidance</li>
+                  <li>Audio prompts</li>
+                  <li>Phone "Shake" alerts</li>
+                  <li>Automatic rerouting</li>
+                  <li>Integration with other applications</li>
+                  <li>Multiple route options</li>
+              </ul>
+          </div>
+          <div class="select-mode collapse" id="visual-display">
+              Visual Display Guidance Mode
+              <ul>
+                  <li>Turn-by-turn directions throughout designated navigation zones</li>
+                  <li>Visual display guidance</li>
+                  <li>Complete at a glance route layout</li>
+                  <li>Automatic rerouting</li>
+                  <li>Integration with other applications</li>
+                  <li>Multiple route options</li>
+                  <li>Voice guidance option</li>
+                  <li>Audio prompts option</li>
+                  <li>Points of Interest option</li>
+                  <li>Phone "Shake" alerts option</li>
+              </ul>
+          </div>
+          <div class="select-mode collapse" id="wheelchair-mode">
+              Wheelchair Mode
+              <ul>
+                  <li>Display Wheelchair Specific Routes</li>
+                  <li>Wheel Chair accessible Points of interest (Facilities)</li>
+                  <li>Complete at a glance route layout</li>
+                  <li>Automatic rerouting</li>
+                  <li>Integration with other applications</li>
+                  <li>Multiple route options</li>
+                  <li>Voice guidance option</li>
+                  <li>Audio prompts option</li>
+                  <li>Points of Interest option</li>
+                  <li>Phone "Shake" alerts option</li>
+              </ul>
+          </div>
+          </div>
+          </div>
       </div>
   </div>
       <div class="row row3">
           <div class="col-md-6"><h4>Navigation for Visually Impaired</h4>
 Our system allows people with visually impairments independently explore new indoor environments.
               <ul>
-<li>1~2m positioning accuracy</li>
+                  <li>1~2m positioning accuracy</li>
                   <li>Visually impaired/Wheelchair mode</li>
                   <li>Textiles and floor changes alerts</li>
                   <li>Audio prompts of environment changes and hazards</li>
-                  <li>audio prompts for facility information</li>
+                  <li>Audio prompts for facility information</li>
               </ul></div>
           <div class="col-md-6"><img class="img-fluid center-block" src="{% static 'img2.jpg' %}" /></div>
       </div>
