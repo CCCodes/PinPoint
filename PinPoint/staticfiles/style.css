@@ -99,6 +99,20 @@ body {
   text-transform: uppercase;
 }
 
+#logo-header {
+  text-align: center;
+  height: 55px;
+  background-color: rgba(255, 255, 255, .7);
+  padding: 5px;
+}
+
+#logo-img {
+  display: block;
+  /*margin-left: auto;*/
+  /*margin-right: auto;*/
+  height: 90%;
+}
+
 #blue-box {
   background-color: rgba(23, 13, 133, 0.8);
 }
@@ -107,6 +121,14 @@ body {
   text-align:center;
   padding-left: 50px;
   padding-right: 50px;
-  color:white;
-  background-color: rgba(2, 113, 114, 0.8);
+}
+
+#about3 {
+  background-color: rgba(255, 255, 255, .8);
+}
+
+.select-mode {
+  background-color: rgba(1,71,109,0.8);
+  color: white;
+  padding: 15px;
 }

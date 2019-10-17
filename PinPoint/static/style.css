@@ -126,3 +126,9 @@ body {
 #about3 {
   background-color: rgba(255, 255, 255, .8);
 }
+
+.select-mode {
+  background-color: rgba(1,71,109,0.8);
+  color: white;
+  padding: 15px;
+}
