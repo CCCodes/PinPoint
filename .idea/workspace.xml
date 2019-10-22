@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e56a0b60-f0a6-4598-9738-8d0a4d0b528d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/PinPoint/static/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PinPoint/staticfiles/script.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PinPoint/static/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/PinPoint/static/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/hometest1.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/hometest1.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/main.html" afterDir="false" />
     </list>
@@ -148,7 +147,8 @@
       <workItem from="1570793634460" duration="2354000" />
       <workItem from="1571104260989" duration="1625000" />
       <workItem from="1571281750675" duration="218000" />
-      <workItem from="1571282094132" duration="2083000" />
+      <workItem from="1571282094132" duration="2554000" />
+      <workItem from="1571711048747" duration="343000" />
     </task>
     <task id="LOCAL-00001" summary="contact submit working">
       <created>1569604636209</created>
@@ -192,7 +192,14 @@
       <option name="project" value="LOCAL" />
       <updated>1571105464584</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="change verbage and mode toggle">
+      <created>1571284262287</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1571284262288</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -216,7 +223,8 @@
     <MESSAGE value="contact submit working" />
     <MESSAGE value="Start new homepage mockup" />
     <MESSAGE value="Two rows of benefits, partner page" />
-    <option name="LAST_COMMIT_MESSAGE" value="Two rows of benefits, partner page" />
+    <MESSAGE value="change verbage and mode toggle" />
+    <option name="LAST_COMMIT_MESSAGE" value="change verbage and mode toggle" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
