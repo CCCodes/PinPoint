@@ -67,7 +67,8 @@ DEBUG = True
 
 ALLOWED_HOSTS = [
     '127.0.0.1',
-    'pinpoint-labs.herokuapp.com'
+    'pinpoint-labs.herokuapp.com',
+    'www.pinpoint-labs.com'
 ]
 
 

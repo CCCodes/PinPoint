@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e56a0b60-f0a6-4598-9738-8d0a4d0b528d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/PinPoint/staticfiles/script.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PinPoint/static/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/PinPoint/static/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/hometest1.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/hometest1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/main.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PinPoint/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/PinPoint/settings.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -148,7 +145,8 @@
       <workItem from="1571104260989" duration="1625000" />
       <workItem from="1571281750675" duration="218000" />
       <workItem from="1571282094132" duration="2554000" />
-      <workItem from="1571711048747" duration="343000" />
+      <workItem from="1571711048747" duration="524000" />
+      <workItem from="1572488728861" duration="32000" />
     </task>
     <task id="LOCAL-00001" summary="contact submit working">
       <created>1569604636209</created>
@@ -199,7 +197,14 @@
       <option name="project" value="LOCAL" />
       <updated>1571284262288</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="enlarge mission and reduce overflow">
+      <created>1571711453707</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1571711453708</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -224,7 +229,8 @@
     <MESSAGE value="Start new homepage mockup" />
     <MESSAGE value="Two rows of benefits, partner page" />
     <MESSAGE value="change verbage and mode toggle" />
-    <option name="LAST_COMMIT_MESSAGE" value="change verbage and mode toggle" />
+    <MESSAGE value="enlarge mission and reduce overflow" />
+    <option name="LAST_COMMIT_MESSAGE" value="enlarge mission and reduce overflow" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -241,7 +247,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/PinPoint/settings.py</url>
-          <line>177</line>
+          <line>178</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
