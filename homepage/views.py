@@ -44,7 +44,7 @@ def contact_submit(request):
             'Name: ' + request.POST['name'] + '\nEmail: ' +
             request.POST['email'] + '\nMessage: ' + request.POST['message'],
             'proconduck@gmail.com',
-            ['caitlinchou@gmail.com'],
+            ['caitlinchou@gmail.com', 'pinpointlabsllc@gmail.com'],
             fail_silently=False
         )
     except SMTPAuthenticationError as e:

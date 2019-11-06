@@ -114,7 +114,8 @@ body {
 }
 
 #blue-box {
-  background-color: rgba(23, 13, 133, 0.8);
+  /*background-color: rgba(23, 13, 133, 0.8);*/
+  background-color: #fdb415;
 }
 
 #about2 {
