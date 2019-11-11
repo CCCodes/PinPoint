@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e56a0b60-f0a6-4598-9738-8d0a4d0b528d" name="Default Changelist" comment="">
+    <list default="true" id="e56a0b60-f0a6-4598-9738-8d0a4d0b528d" name="Default Changelist" comment="add pinpoint-labs.com to allowed_hosts">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PinPoint/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/PinPoint/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/hometest1.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/hometest1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/main.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -149,7 +150,7 @@
       <workItem from="1572488728861" duration="671000" />
       <workItem from="1573009564127" duration="2625000" />
       <workItem from="1573050185195" duration="131000" />
-      <workItem from="1573443812355" duration="64000" />
+      <workItem from="1573443812355" duration="1108000" />
     </task>
     <task id="LOCAL-00001" summary="contact submit working">
       <created>1569604636209</created>
@@ -221,7 +222,14 @@
       <option name="project" value="LOCAL" />
       <updated>1573050276459</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="add pinpoint-labs.com to allowed_hosts">
+      <created>1573443905212</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1573443905212</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -248,7 +256,8 @@
     <MESSAGE value="change verbage and mode toggle" />
     <MESSAGE value="enlarge mission and reduce overflow" />
     <MESSAGE value="change collapse modes" />
-    <option name="LAST_COMMIT_MESSAGE" value="change collapse modes" />
+    <MESSAGE value="add pinpoint-labs.com to allowed_hosts" />
+    <option name="LAST_COMMIT_MESSAGE" value="add pinpoint-labs.com to allowed_hosts" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
