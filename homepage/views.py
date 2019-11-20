@@ -43,7 +43,7 @@ def contact_submit(request):
             'PinPoint Site Contact from ' + request.POST['email'],
             'Name: ' + request.POST['name'] + '\nEmail: ' +
             request.POST['email'] + '\nMessage: ' + request.POST['message'],
-            'proconduck@gmail.com',
+            'pinpointlabsllc@gmail.com',
             ['caitlinchou@gmail.com', 'pinpointlabsllc@gmail.com'],
             fail_silently=False
         )
