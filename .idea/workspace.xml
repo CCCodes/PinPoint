@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e56a0b60-f0a6-4598-9738-8d0a4d0b528d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/PinPoint/static/government-min.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PinPoint/static/mall-min.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PinPoint/static/retail-min.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homepage/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/homepage/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PinPoint/static/homestyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/PinPoint/static/homestyle.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -154,7 +156,9 @@
       <workItem from="1573784514116" duration="1525000" />
       <workItem from="1573832323126" duration="3433000" />
       <workItem from="1574220306089" duration="1349000" />
-      <workItem from="1574388169475" duration="301000" />
+      <workItem from="1574388169475" duration="432000" />
+      <workItem from="1575133894228" duration="104000" />
+      <workItem from="1575136682910" duration="72000" />
     </task>
     <task id="LOCAL-00001" summary="contact submit working">
       <created>1569604636209</created>
@@ -275,7 +279,14 @@
       <option name="project" value="LOCAL" />
       <updated>1574221657782</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="remove news">
+      <created>1574388586567</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1574388586567</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -306,7 +317,8 @@
     <MESSAGE value="fix mobile view" />
     <MESSAGE value="visually -&gt; visual" />
     <MESSAGE value="fix about and contact gap" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix about and contact gap" />
+    <MESSAGE value="remove news" />
+    <option name="LAST_COMMIT_MESSAGE" value="remove news" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
