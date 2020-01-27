@@ -3,6 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="e56a0b60-f0a6-4598-9738-8d0a4d0b528d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/main.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/partner.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/partner.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -71,7 +75,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.django.DjangoModulesConfigurable" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -158,6 +162,7 @@
       <workItem from="1575133894228" duration="104000" />
       <workItem from="1575136682910" duration="1755000" />
       <workItem from="1579818466229" duration="655000" />
+      <workItem from="1580138571819" duration="1549000" />
     </task>
     <task id="LOCAL-00001" summary="contact submit working">
       <created>1569604636209</created>
@@ -313,7 +318,14 @@
       <option name="project" value="LOCAL" />
       <updated>1575138308437</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="fix partner gap">
+      <created>1580138602032</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1580138602032</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -348,7 +360,8 @@
     <MESSAGE value="minify images" />
     <MESSAGE value="fix jpg" />
     <MESSAGE value="fix all images" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix all images" />
+    <MESSAGE value="fix partner gap" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix partner gap" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
