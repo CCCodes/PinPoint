@@ -1,23 +1,26 @@
 {% extends "base.html" %}
 {% load static %}
-{% load staticfiles %}
 {% block content %}
   <div class="row h-40" id="row1" style="padding: 30px; padding-top: 80px;">
-      <div class="col-md-4"><div class="container text-white w-100 h-70" id="blue-box"><p class="title">
-      Indoor navigation has arrived</p></div></div>
+      <div class="container text-white" id="blue-box"><p class="title">
+      Indoor navigation has arrived</p></div>
   </div>
     {% include "hometest1.html" %}
-      <div class="row row-white" id="row2"><p class="title">INDOOR NAVIGATION AND POSITIONING</p>
+    <div class="row row-white"><p class="title">INDOOR NAVIGATION AND POSITIONING</p></div>
+    <div class="row row-white" id="row2">
+    <div class="col-lg-2"></div>
+          <div class="col-lg-8">
       PinPoint offers indoor navigation and indoor positioning.
       Our system uses Bluetooth beacons and AI based localization
       for accuracy. This allows our system to be used in different
       environments like airports, hospitals, and large complex structures
-      easily and reliably. </div>
+      easily and reliably.</div> </div>
   <div class="row row3"><p class="title">INDOOR NAVIGATION SYSTEM</p>
   </div>
   <div class="row row3">
-      <div class="col-md-6"><img class="img-fluid center-block" src="{% static 'img1.jpg' %}" /></div>
-      <div class="col-md-6">
+  <div class="col-lg-1"></div>
+      <div class="col-md-6 col-lg-5"><img class="img-fluid center-block" style="max-width: 400px;" src="{% static 'img1.jpg' %}" /></div>
+      <div class="col-md-6 col-lg-5">
           <h4>Accurate Indoor Navigation</h4>
 Our indoor navigation solution provides accurate turn-by-turn navigation to users.<br/><br/>
           <h4>User-selectable application modes</h4>
@@ -100,7 +103,8 @@ Our indoor navigation solution provides accurate turn-by-turn navigation to user
       </div>
   </div>
       <div class="row row3">
-          <div class="col-md-6"><h4>Navigation for Visually Impaired</h4>
+      <div class="col-lg-1"></div>
+          <div class="col-md-6 col-lg-5"><h4>Navigation for Visually Impaired</h4>
 Our system allows people with visual impairments to independently explore new indoor environments.
               <ul>
                   <li>1~2m positioning accuracy</li>
@@ -109,11 +113,12 @@ Our system allows people with visual impairments to independently explore new in
                   <li>Audio prompts of environment changes and hazards</li>
                   <li>Audio prompts for facility information</li>
               </ul></div>
-          <div class="col-md-6"><img class="img-fluid center-block" src="{% static 'img2.jpg' %}" /></div>
+          <div class="col-md-6 col-lg-5"><img class="img-fluid center-block" src="{% static 'img2.jpg' %}" /></div>
       </div>
       <div class="row row3">
-          <div class="col-md-6"><img class="img-fluid center-block" src="{% static 'img3.jpg' %}" /></div>
-          <div class="col-md-6">
+      <div class="col-lg-1"></div>
+          <div class="col-md-6 col-lg-5"><img class="img-fluid center-block" src="{% static 'img3.jpg' %}" /></div>
+          <div class="col-md-6 col-lg-5">
               <h4>Support</h4>
 Clients can edit destinations, environmental changes and information on a live desktop.
               <ul>
@@ -128,7 +133,8 @@ Clients can edit destinations, environmental changes and information on a live d
       <div class="row row-white"><p class="title">BENEFITS</p>
       </div>
       <div class="row row-white">
-          <div class="col-md-8">
+        <div class="col-lg-1"></div>
+          <div class="col-md-8 col-lg-5">
               <ul>
                   <li>Providing people with visual impairments accessibility</li>
                   <li>Showcasing your facility and creating an engaging and positive experience for your clients</li>
@@ -140,7 +146,7 @@ Clients can edit destinations, environmental changes and information on a live d
                   <li>Integrating with existing facility systems to increase adoption and client/patient on-time arrivals</li>
               </ul>
           </div>
-          <div class="col-md-4"><img class="center-block" src="{% static 'img4.jpg' %}" /></div>
+          <div class="col-md-4 col-lg-4"><img class="center-block" src="{% static 'img4.jpg' %}" /></div>
       </div>
       <div class="row row3"><p class="title">VIDEO</p>
       </div>
@@ -171,6 +177,8 @@ Field experiment in Nihonbashi, Tokyo (Feb 2017)</div>
           <p class="title">OUR MISSION</p>
       </div>
       <div class="row row-blue" id="mission">
+      <div class="col-lg-3"></div>
+      <div class="col-lg-6">
           Our mission is to lend a virtual hand through innovative technology; helping those in
-          need to navigate complex indoor environments, simply and safely.
+          need to navigate complex indoor environments, simply and safely.</div>
       </div>{% endblock %}
